@@ -47,17 +47,17 @@ The To-Do List project is a Python-based application that helps users organize a
 ## Requirements
 
 - Python 3.x,
-- VS code editor
+- VS code editor or
+- Command prompt
 
-## How to Use
+## How to Run
 
-1. Clone or download this repository to your local machine.
-2. Open a terminal or command prompt.
-3. Run the `todo_list.py` script using the command:
+1. Open a terminal or command prompt.
+2. Run the `todo_list.py` file using the command:
    ```
    python todo_list.py
    ```
-4. Follow the prompts in the console to interact with the program.
+3. Follow the prompts in the console to interact with the program.
 
 ## Program Flow
 
@@ -69,10 +69,10 @@ The To-Do List project is a Python-based application that helps users organize a
     - Exit
 
 2. Based on your input, the program performs the corresponding action:
-    - **Add Task**: Prompts you to enter a task and adds it to the list.
+    - **Add Task**: Allows you to enter a task and adds it to the list.
     - **View Tasks**: Displays all tasks along with their completion status.
-    - **Mark Task as Complete**: Prompts for a task number to mark as done.
-    - **Delete Task**: Prompts for a task number to delete.
+    - **Mark Task as Complete**: Allows for a task number to mark as done.
+    - **Delete Task**: Allows for a task number to delete.
     - **Exit**: Exits the application.
 
 3. Invalid inputs or choices are handled with appropriate error messages.
@@ -80,6 +80,8 @@ The To-Do List project is a Python-based application that helps users organize a
 ## Example Usage
 
 ```text
+PS C:\Users\sonaw\OneDrive\Desktop> python todopython.py
+
 To-Do List:
 1. Add task
 2. View tasks
@@ -87,7 +89,27 @@ To-Do List:
 4. Delete task
 5. Exit
 Enter your choice: 1
-Enter a task: Buy groceries
+Enter a task: assignment completion
+Task added!
+
+To-Do List:
+1. Add task
+2. View tasks
+3. Mark task as complete
+4. Delete task
+5. Exit
+Enter your choice: 1
+Enter a task: project work
+Task added!
+
+To-Do List:
+1. Add task
+2. View tasks
+3. Mark task as complete
+4. Delete task
+5. Exit
+Enter your choice: 1
+Enter a task: running or gym
 Task added!
 
 To-Do List:
@@ -99,7 +121,9 @@ To-Do List:
 Enter your choice: 2
 
 Tasks:
-1. Buy groceries - Not Done
+1. assignment completion - Not Done
+2. project work - Not Done
+3. running or gym - Not Done
 
 To-Do List:
 1. Add task
@@ -108,7 +132,7 @@ To-Do List:
 4. Delete task
 5. Exit
 Enter your choice: 3
-Enter task number to mark as complete: 1
+Enter task number to mark as complete: 3
 Task marked as complete!
 
 To-Do List:
@@ -120,11 +144,41 @@ To-Do List:
 Enter your choice: 2
 
 Tasks:
-1. Buy groceries - Done
+1. assignment completion - Not Done
+2. project work - Not Done
+3. running or gym - Done
+
+To-Do List:
+1. Add task
+2. View tasks
+3. Mark task as complete
+4. Delete task
+5. Exit
+Enter your choice: 4
+Enter task number to delete: 3
+Task 'running or gym' deleted!
+
+To-Do List:
+1. Add task
+2. View tasks
+3. Mark task as complete
+4. Delete task
+5. Exit
+Enter your choice: 2
+
+Tasks:
+1. assignment completion - Not Done
+2. project work - Not Done
+
+To-Do List:
+1. Add task
+2. View tasks
+3. Mark task as complete
+4. Delete task
+5. Exit
+Enter your choice: 5
+Goodbye!
+PS C:\Users\sonaw\OneDrive\Desktop>
 ```
 
-## Author
-This program was created as an example of a simple console-based to-do list application in Python.
 
-## License
-This project is open-source and free to use. No license required.
