@@ -2,11 +2,11 @@
 
 This code defines a Task_Manager class that implements a console-based to-do list application. The program allows users to:
 
-Add Task: Add new tasks to the list.
-View Tasks: Display all tasks along with their completion status (Done/Not Done).
+Add Task: Add new tasks to the list
+View Tasks: Display all tasks along with their completion status (Done/Not Done)
 Mark Task as Complete: Update the status of a task to "Done."
-Delete Task: Remove a task from the list.
-Exit: Exit the application..
+Delete Task: Remove a task from the list
+Exit: Exit the application.
 
 
 # Team Members
