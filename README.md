@@ -1,6 +1,12 @@
 # To-Do List Program
 
-This is a simple Python console application that allows users to manage a to-do list. Users can add tasks, view tasks, mark tasks as complete, delete tasks, and exit the application.
+This code defines a Task_Manager class that implements a console-based to-do list application. The program allows users to:
+
+Add Task: Add new tasks to the list.
+View Tasks: Display all tasks along with their completion status (Done/Not Done).
+Mark Task as Complete: Update the status of a task to "Done."
+Delete Task: Remove a task from the list.
+Exit: Exit the application..
 
 
 # Team Members
@@ -9,13 +15,6 @@ This is a simple Python console application that allows users to manage a to-do 
 3) **Ajinkya Khose**
 4) **Manish Patil**
 
-## Features
-
-1. **Add Task**: Add a new task to the list.
-2. **View Tasks**: View all tasks with their statuses (Done/Not Done).
-3. **Mark Task as Complete**: Mark a task as completed.
-4. **Delete Task**: Remove a task from the list.
-5. **Exit**: Exit the application.
 
 ## Requirements
 
