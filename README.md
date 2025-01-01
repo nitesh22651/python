@@ -1,18 +1,53 @@
 # To-Do List Program
 
+## Description
 The To-Do List project is a Python-based application that helps users organize and manage their tasks. It provides an interactive interface where users can add tasks, view a list of tasks, mark tasks as complete, delete tasks, and exit the program. The application is designed for simplicity and ease of use, making task management straightforward and efficient.
 
 
-# Team Members
+## Team Members
 1) **Nitesh Sonawane**
 2) **Krushna Khillari**
 3) **Ajinkya Khose**
 4) **Manish Patil**
 
+## Phases of project
+
+**Phase 1: Planning and Requirements**
+* Objective: Define the purpose and scope of the project.
+* Tasks :
+  1) Identify key features: Add tasks, view tasks, mark tasks as complete, delete tasks, and exit.
+  2) Decide on the programming language and tools (e.g., Python).
+     
+**Phase 2: Basic Implementation**
+* Objective: Develop the core functionality of the To-Do List.
+* Tasks:
+   - Set up a Python class (Task_Manager) and initialize the todo_list method.
+   - Add tasks.
+   - View tasks in a numbered list with status (Done/Not Done).
+   - Mark tasks as complete.
+   - Delete tasks by number.
+   - Provide an exit option to close the application.
+   - Add input prompts and print statements for user interaction.
+
+**Phase 3: Code Optimization**
+* Objective: Refactor code for better readability and maintainability.
+* Tasks:
+  * Modularize the code by separating each action into individual methods:
+      - add_task(), view_tasks(), mark_task_complete(), delete_task().
+      - Reuse the view_tasks() method in relevant places.
+      - Use comments to explain the logic.
+
+**Phase 4: Testing and Debugging**
+* Objective: Ensure the application works as expected.
+* Tasks:
+   - Test each feature with various inputs and edge cases.
+   - Fix bugs and unexpected behaviors.
+   - Conduct usability testing with other users for feedback.
 
 ## Requirements
 
-- Python 3.x
+- Python 3.x,
+- VS code editor
 
 ## How to Use
 
