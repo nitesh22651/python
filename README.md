@@ -1,4 +1,4 @@
-# Task Planner Program
+# Task-Planner Program
 
 ## Description
 The To-Do List project is a Python-based application that helps users organize and manage their tasks. It provides an interactive interface where users can add tasks, view a list of tasks, mark tasks as complete, delete tasks, and exit the program. The application is designed for simplicity and ease of use, making task management straightforward and efficient.
